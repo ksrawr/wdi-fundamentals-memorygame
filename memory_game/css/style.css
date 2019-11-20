@@ -17,6 +17,7 @@ h1 {
 	font-family: "Raleway", sans-serif;
 	font-weight: 400;
 	margin: 0;
+	text-transform: uppercase;
 }
 
 nav {
@@ -32,6 +33,7 @@ nav {
 nav a {
 	margin: 0 20px;
 	color: #FFFFFF;
+	border-bottom: 2px solid transparent;
 }
 
 /*div a {
@@ -62,4 +64,44 @@ main {
 
 img {
 	margin: 40px 8px 0 8px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+footer p {
+	font-family: "Raleway", serif;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+nav a:hover {
+	border-color: white;
 }
