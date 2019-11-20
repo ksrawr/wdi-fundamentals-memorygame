@@ -3,19 +3,44 @@
 	text-decoration: none;
 }
 
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+}
+
 h1 {
 	font-family: "Raleway", sans-serif;
 	font-weight: 400;
+	margin: 0;
 }
 
-div a {
+nav {
+	background-color: #00A6B3;
+	padding: 20px 0;
 	font-family: "Raleway", sans-serif;
-	color: #F15B31;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
 	text-transform: uppercase;
 }
+
+nav a {
+	margin: 0 20px;
+	color: #FFFFFF;
+}
+
+/*div a {
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+}*/
 
 h2 {
 	font-family: "Raleway", sans-serif;
@@ -28,4 +53,13 @@ h2 {
 
 p {
 	font-family: "Droid Serif", serif;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin: 40px 8px 0 8px;
 }
